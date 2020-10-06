@@ -1,0 +1,93 @@
+/*-- Body Reset --*/
+body {
+  overflow-x: hidden;
+  font-family: 'Montserrat', sans-serif;
+  color: #616971;
+}
+
+/*============= TOP BAR HEADER =============*/
+.top-bar{
+  background: #7bb661
+  ;
+  height: 2.8rem;
+  padding: .5rem 0;
+  
+}
+.top-bar a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+
+/*============= NAVIGATION =============*/
+.navbar-brand img {
+  height: 3rem;
+}
+.navbar{
+  font-size: 1.15rem;
+  font-weight: 600;
+  letter-spacing: .1rem;
+  box-shadow: 0 .5rem .5rem rgba(0,0,0, .1);
+  z-index: 1;
+}
+.nav-item{
+  padding: .5rem;
+}
+.nav-link{
+  color: #5b5555!important;
+}
+.nav-link.active,
+.nav-link:hover {
+  color: #7bb661!important;
+}
+
+
+
+
+/*-- ABOUT ME --*/
+.form-input{
+  display: block;
+  width: 75%;
+  padding: 1rem 2rem;
+}
+
+.btn-primary{
+  border-radius: 0;
+  text-transform: uppercase;
+  font-size: 1rem;
+  border-width:medium;
+  background-color:  #7bb661;
+  border: .05rem solid  #7bb661;
+}
+
+.btn-primary:hover {
+  background-color :#006633!important;
+  border: 0.5rem solid  #006633!important;
+}
+
+
+/*============= SOCIAL MEDIA =============*/
+footer {
+  background-color: #383838;
+  padding: 1rem 2rem 3rem;
+}
+footer img{
+  height: 3.5rem;
+  margin: 1.5rem auto;
+}
+footer a{
+  color: white;
+}
+ul.social{
+  list-style-type: none;
+  display: flex;
+  max-width: 16rem;
+  margin: 0 auto;
+  padding: 0;
+}
+ul.social li{
+  margin: -1rem;
+  padding: 1.5rem;
+}
+
