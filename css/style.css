@@ -43,8 +43,17 @@ body {
 }
 
 
+/*--PROJECTS--*/
 
+.btn-outline-dark{
+  
+  border: .05rem solid  #7bb661;
+}
 
+.btn-outline-dark:hover {
+  background-color :#7bb661!important;
+  border: 0.5rem solid  #7bb661!important;
+}
 /*--CONCTACT ME --*/
 .form-input{
   display: block;
