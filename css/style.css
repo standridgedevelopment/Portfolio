@@ -1,8 +1,6 @@
-/*-- Body Reset --*/
+
 body {
-  overflow-x: hidden;
   font-family: 'Montserrat', sans-serif;
-  color: #616971;
 }
 
 /*============= TOP BAR HEADER =============*/
@@ -21,9 +19,7 @@ body {
 
 
 /*============= NAVIGATION =============*/
-.navbar-brand img {
-  height: 3rem;
-}
+
 .navbar{
   font-size: 1.15rem;
   font-weight: 600;
@@ -47,12 +43,15 @@ body {
 
 .btn-outline-dark{
   
-  border: .05rem solid  #7bb661;
+  text-transform: uppercase;
+  font-size: 1rem;
+  border-width:small;
+  border: .03rem solid  #7bb661;
 }
 
 .btn-outline-dark:hover {
   background-color :#7bb661!important;
-  border: 0.5rem solid  #7bb661!important;
+  border: 0.03rem solid  #7bb661!important;
 }
 /*--CONCTACT ME --*/
 .form-input{
@@ -62,12 +61,12 @@ body {
 }
 
 .btn-primary{
-  border-radius: 0;
+  border-radius: 5;
   text-transform: uppercase;
   font-size: 1rem;
   border-width:medium;
   background-color:  #7bb661;
-  border: .05rem solid  #7bb661;
+  border: .5rem solid  #7bb661;
 }
 
 .btn-primary:hover {
@@ -89,7 +88,6 @@ footer a{
   color: white;
 }
 ul.social{
-  list-style-type: none;
   display: flex;
   max-width: 16rem;
   margin: 0 auto;
