@@ -88,6 +88,7 @@ footer a{
   color: white;
 }
 ul.social{
+  list-style-type: none;
   display: flex;
   max-width: 16rem;
   margin: 0 auto;
